@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
-import Header from "./components/Header"
-import Details from "./components/Details"
+import Header from "./components/Header.jsx"
+import Details from "./components/Details.jsx"
 
 function App() {
   const [isShowingPOTD, setIsShowingPOTD] = useState(false);
