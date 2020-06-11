@@ -4,6 +4,7 @@ export default styled.button`
     background-color: ${props => props.color || '#284b63'};
     color: ${props => props.textColor || 'white'};
     text-transform: ${props => props.scream ? 'uppercase' : 'initial'};
+    width: 20%;
     padding: 1rem;
     text-align: center;
     display: inline-block;
